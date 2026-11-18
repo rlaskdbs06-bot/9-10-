@@ -1,0 +1,206 @@
+---
+name: Europe First Step
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#44474e'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#74777f'
+  outline-variant: '#c4c6cf'
+  surface-tint: '#485f84'
+  primary: '#031f41'
+  on-primary: '#ffffff'
+  primary-container: '#1d3557'
+  on-primary-container: '#879ec6'
+  inverse-primary: '#b0c7f1'
+  secondary: '#006398'
+  on-secondary: '#ffffff'
+  secondary-container: '#5bb8fe'
+  on-secondary-container: '#00476e'
+  tertiary: '#11222a'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#263740'
+  on-tertiary-container: '#8ea0ab'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d5e3ff'
+  primary-fixed-dim: '#b0c7f1'
+  on-primary-fixed: '#001b3c'
+  on-primary-fixed-variant: '#30476a'
+  secondary-fixed: '#cce5ff'
+  secondary-fixed-dim: '#93ccff'
+  on-secondary-fixed: '#001d31'
+  on-secondary-fixed-variant: '#004b73'
+  tertiary-fixed: '#d3e5f1'
+  tertiary-fixed-dim: '#b7c9d5'
+  on-tertiary-fixed: '#0c1e26'
+  on-tertiary-fixed-variant: '#384953'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 30px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 19px
+    fontWeight: '600'
+    lineHeight: 26px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 17px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.25rem
+---
+
+## Brand & Style
+
+This design system establishes an approachable, reassuring, and impeccably organized travel companion for first-time visitors to France and Switzerland. Navigating international transit systems, foreign languages, and complex ticketing can be overwhelming; the interface counters this cognitive overload with expansive white space, clear wayfinding cues, and structured, bite-sized itineraries.
+
+The aesthetic blends **Modern Utilitarian Cleanliness** with **Gentle Tactile Hospitality**:
+- **Confidence & Guidance**: A disciplined navy structure communicates safety, clarity, and dependable logistics.
+- **Optimism & Fresh Air**: Airy sky-blue highlights evoke alpine vistas and open European skies, maintaining an uplifting travel mood.
+- **Generous Affordances**: Prominent touch zones, rounded container shapes, and deliberate typography relieve travel friction on the move.
+
+## Colors
+
+The palette relies on high legibility, crisp contrast, and calming atmospheric cool tones suitable for bright outdoor daylight use.
+
+- **Primary (`#1D3557`)**: An authoritative, deep oceanic navy. Applied to critical actions, essential status tags, high-priority headings, and persistent structural anchors.
+- **Secondary (`#0284C7`)**: A crisp, alpine sky blue. Used for active selection states, key transit identifiers, interactive links, and forward momentum elements.
+- **Tertiary (`#E0F2FE`)**: Soft sky tint used as an interactive highlight surface for active filter chips, timetable highlights, and contextual callout badges.
+- **Neutral (`#64748B`)**: Slate gray providing calm, balanced metadata labels, subtext, and inactive UI borders.
+
+### Surface Architecture
+- **Canvas Base**: Pure white (`#FFFFFF`) ensures optimal ambient contrast.
+- **Card & Grouped Containers**: Crisp layered slate tints (`#F8FAFC` base fill, `#F1F5F9` nested segment fill) create subtle distinction without relying on heavy borders.
+
+## Typography
+
+The typography system uses **Plus Jakarta Sans** (complemented in code implementations with Pretendard / system gothic for complete CJK glyph coverage). Letterforms are friendly, balanced, and open, ensuring rapid legibility when glancing at transit directions, train platform numbers, and packing checklists on the move.
+
+- **Scale Considerations**: Font sizes skew slightly larger than default desktop ratios to cater to first-time travelers managing baggage and navigating bright stations.
+- **Hierarchy Hierarchy**: Station names and primary destinations rely on `headline-md` and `title-md`. Key instructions utilize `body-lg` with `fontWeight: 500` to prevent visual fatigue.
+- **Micro-Copy**: Essential labels such as currency codes, platform tags, and time intervals leverage uppercase tracked `label-md` and `label-sm`.
+
+## Layout & Spacing
+
+The layout is built on a mobile-first, vertical content flow optimized for single-handed thumb operation.
+
+- **Canvas Safe Area & Margins**: Default horizontal screen margins are fixed at `1.25rem` (20px), preserving comfortable breathing room away from screen bezel edges.
+- **Rhythm & Grid**: Content sections align to a cohesive 4px baseline rhythm. Interactive elements conform to a primary touch target of at least 48px to 56px in height.
+- **Grouping Logic**:
+  - Tight groupings (icon to title, chip internal padding): `space-xs` (4px) to `space-sm` (8px).
+  - Component interior padding (cards, dialogs): `space-md` (16px) to `space-lg` (24px).
+  - Vertical section separation (between itinerary days or transit steps): `space-xl` (36px).
+
+## Elevation & Depth
+
+This system avoids heavy, dirty drop shadows in favor of a bright, sunlit aesthetic that combines subtle surface tinting with soft ambient diffusion.
+
+- **Surface Level 0 (Base)**: `#FFFFFF` screen backdrop.
+- **Surface Level 1 (Default Cards)**: Background fill `#F8FAFC` framed with a fine, translucent border (`rgba(226, 232, 240, 0.8)`).
+- **Surface Level 2 (Elevated & Floating Elements)**: Floating modals, bottom navigation bars, and active ticket badges use pure `#FFFFFF` resting on a soft ambient shadow:
+  - `box-shadow: 0 10px 25px -5px rgba(29, 53, 87, 0.06), 0 8px 10px -6px rgba(29, 53, 87, 0.04)`.
+- **Surface Level 3 (Action Sticky Trays)**: Persistent bottom CTAs utilize a smooth upward gradient scrim fading from `rgba(255, 255, 255, 0)` into `#FFFFFF` at 100%.
+
+## Shapes
+
+The shape system conveys a welcoming, friendly, and non-intimidating feel.
+
+- **Base Components (`roundedness: 2`)**: Standard inputs, alert blocks, and compact listing rows use an 8px (`0.5rem`) radius.
+- **Content Cards & Panels**: Larger structural cards use `rounded-lg` (16px) to `rounded-xl` (24px) for a soft, pebble-smooth corner profile.
+- **Interactive Chips & Action Pills**: Filters, category tags, and primary bottom buttons utilize fully rounded ends (pill / circular radius) for comfortable, friction-free tactile targets.
+
+## Components
+
+### Top Navigation Bar
+- **Structure**: Clean 56px height bar on `#FFFFFF` base with a 1px soft border below (`#F1F5F9`).
+- **Left Action**: Dedicated `[이전]` (Back) group containing a clean chevron icon paired with an explicit `이전` (Back) text label (`title-md`, `#1D3557`), ensuring zero ambiguity for first-time travelers.
+- **Center**: Current page or destination context (e.g., "파리 1일차", "인터라켄 이동").
+- **Right Action**: Contextual utilities such as language switch, map toggle, or currency converter quick-launch.
+
+### Primary CTA Buttons
+- **Touch Target**: Standard height of 56px (`h-14`) with a full pill radius.
+- **Style**: Solid `#1D3557` (Deep Navy) background, pure white bold text (`label-lg`), and zero borders.
+- **Active State**: Pressed feedback scales slightly to `98%` with a momentary tint shift to `#0F172A`.
+
+### Interactive Chips
+- **Inactive State**: Pill shape, background `#F1F5F9`, text `#64748B` (`label-md`), fine outline in `#E2E8F0`.
+- **Active / Selected State**: Pill shape, background `#E0F2FE` (Tertiary sky tint), text `#0284C7` (Secondary blue), fine accent border `#38BDF8`.
+
+### Cards & Timelines
+- **Itinerary Card**: Surface fill `#F8FAFC`, radius 20px, internal padding `16px`. Left-accented with transportation badges (e.g., TGV, RER, SBB) rendered in high-contrast miniature pills.
+- **Checklist & Tips Card**: White card with subtle cool gray outline, paired with gentle sky-blue status icons for currency advice, plug adapters, and ticket validation warnings.
+
+### Form Inputs & Selectors
+- **Input Fields**: Height 52px, radius 12px, soft slate fill (`#F8FAFC`), border in `#E2E8F0`. Focus state shifts the border to `#0284C7` with a 3px outer ring in `rgba(2, 132, 199, 0.15)`.
+- **Checkboxes & Radios**: 22px touch targets with a distinct `#1D3557` active check state, designed for confident packing and itinerary milestone confirmations.

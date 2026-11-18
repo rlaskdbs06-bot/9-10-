@@ -1,0 +1,6 @@
+{
+  "name": "Europe First Step",
+  "description": "Approachable, calm travel companion for first-time visitors navigating France and Switzerland transit, itineraries, checklists, and currency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
